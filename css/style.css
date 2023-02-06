@@ -32,11 +32,13 @@ header {
     background-color: orange;
     width: 50%;
     border: 2px black dashed;
+    padding: 8px;
 }
 
-.navigatore li {
+.navigatore li{
     list-style-type: none;
 }
+
 .navigatore ul.flex{
     justify-content: center;
     gap: 10px;
@@ -116,4 +118,51 @@ header {
     height: 750px;
     border: 2px black dashed;
     background-color: green;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(8, 23, 27);
+}
+
+.footer-row {
+    padding: 10px 0 15px;
+    height: 400px;
+}
+
+.footer-row-bottoni {
+    padding: 10px 0 0 0;
+}
+
+.blocco-grande-footer {
+    height: 350px;
+    width: calc((100% / 6) * 2);
+    background-color: rgb(255, 140, 230);
+    border: 2px black dashed;
+}
+
+.blocco-piccolo-footer {
+    height: 350px;
+    width: calc(100% / 6);
+    background-color: rgb(99, 159, 173);
+    border: 2px black dashed;
+}
+
+hr {
+    color: white;
+}
+
+.footer-row-bottoni > .container {
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.bottoni {
+    background-color: rgb(255, 140, 230);
+    border: 1px black dashed;
+}
+
+.box {
+    background-color: aquamarine;
 }
