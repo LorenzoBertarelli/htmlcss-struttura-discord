@@ -71,14 +71,49 @@ header {
 /* CORPO */
 .row > .container {
     align-items: center;
-    height: 330px;
+    height: 300px;
+}
+
+.row-2 > .container {
+    align-items: center;
+    height: 300px;
+}
+
+.last-row > .container {
+    align-items: center;
+    height: 800px;
 }
 .row {
-    height: 350px;
+    height: 300px;
 }
 
-.sfondo-bianco {}
+.row-2 {
+    height: 300px;
+    background-color: grey;
+}
+
+.last-row {
+    height: 800px;
+    background-color: grey;
+}
 
 .blocco-cielo {
+    width: 60%;
+    height: 250px;
+    border: 2px black dashed;
+    background-color: rgb(117, 181, 255);
+}
 
+.blocco-rosa {
+    width: 40%;
+    height: 250px;
+    border: 2px black dashed;
+    background-color: pink;
+}
+
+.blocco-verde {
+    width: 100%;
+    height: 750px;
+    border: 2px black dashed;
+    background-color: green;
 }
